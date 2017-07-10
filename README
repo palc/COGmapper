@@ -1,0 +1,43 @@
+COGmapper
+version 0.1
+
+Yu-Wei Wu (yuwei.wu@tmu.edu.tw)
+Graduate Institute of Biomedical Informatics, Taipei Medical University
+
+[Introduction]
+This script is used to get COG (Clusters of Orthologous Groups)  category distributions for a set of prokaryotic genomes
+
+[Prerequisite]
+This script needs the following additional software
+  - HMMER3
+  - Prodigal
+  - COG files downloaded from eggNOG website (please refer to the tutorial file for this step)
+
+[Usage]
+  perl map_COG.pl (list file) (output file)
+
+[Example]
+Several example genome files are placed at "test_genomes" folder. A list file is also included.
+To run the map_COG script please do as follows:
+cd (COGmapper folder)/test_genomes
+perl (COGmapper folder)/map_COG.pl list out
+
+
+
+[LICENSE]
+    COGmapper -- a script for getting COG distribution for a set of prokaryotic genomes.
+    Copyright (C) 2016  Yu-Wei Wu
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
