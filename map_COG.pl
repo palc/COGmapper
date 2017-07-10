@@ -240,7 +240,7 @@ sub checkProgram
 
 	if (!(-e $COGDB))
 	{
-		print "Please download the COG hmm files from eggNOG website and concatenate them into COG_all.hmm as instructed in the tutorial PDF file";
+		print "Please download the COG hmm files from eggNOG website and concatenate them into COG_all.hmm as instructed in the tutorial PDF file\nPlease place them under \'data\' folder at the COGmapper folder.\n";
 		exit;
 	}
 	if (!(-e "$COGDB.h3i"))
